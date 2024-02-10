@@ -1,0 +1,33 @@
+{
+  "name": "flappybird_webpack",
+  "version": "1.0.0",
+  "description": "Este pequeno projeto foi desenvolvido com a finalidade de treinar conhecimentos prévios em DOM.",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server",
+    "build": "cross-env NODE_ENV=production webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lukanvieira/FlappyBird_Webpack.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lukanvieira/FlappyBird_Webpack/issues"
+  },
+  "homepage": "https://github.com/lukanvieira/FlappyBird_Webpack#readme",
+  "devDependencies": {
+    "webpack": "5.90.1",
+    "webpack-cli": "5.1.4",
+    "webpack-dev-server": "4.15.1",
+    "cross-env": "7.0.3",
+    "css-loader": "6.10.0", 
+    "mini-css-extract-plugin": "2.8.0",
+    "html-loader": "5.0.0",
+    "html-webpack-plugin": "5.6.0",
+    "babel-loader": "9.1.3",
+    "@babel/preset-env": "7.23.9",
+    "@babel/core": "7.23.9"
+  }
+}
