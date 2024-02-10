@@ -80,11 +80,12 @@ body {
 [game-zone] {
     position: relative;
     border: 5px solid dodgerblue;
-    height: 700px;
-    width: 1200px;
+    height: 1080px;
+    width: 1920px;
     margin: 15px;
     background-color: deepskyblue;
     overflow: hidden;
+    background-image: url('../imgs/landscape.png');
 }
 
 .passaro {

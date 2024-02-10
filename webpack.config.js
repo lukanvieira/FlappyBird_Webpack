@@ -20,7 +20,7 @@ module.exports = {
         new MiniCssExtractPlugin({ filename: "flappy.css" }),
         new HtmlWebpackPlugin({
             filename: 'index.html',
-            template: './src/index.html'
+            template: './src/index.html',
         })
     ],
     module: {
